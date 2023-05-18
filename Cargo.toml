@@ -1,0 +1,18 @@
+[package]
+name = "stonks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "stonks"
+crate-type = ["cdylib"]
+
+[dependencies]
+reqwest = { version="*", features=["blocking"] }
+plotters = { version="0.3.1" }
+chrono = { version="*" }
+
+[dependencies.pyo3]
+version = "0.18.0"

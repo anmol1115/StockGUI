@@ -1,0 +1,6 @@
+/target
+/Cargo.lock
+/.venv
+/src/api_key.txt
+/src/__pycache__
+/plotters-doc-data/*
